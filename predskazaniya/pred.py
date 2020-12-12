@@ -20,4 +20,4 @@ def random_quote(file):
     '''
     list_quotes = read_file(file)
     return random.choice(list_quotes)
-# print(random_quote('monday'))
+print(random_quote('monday'))
